@@ -31,4 +31,4 @@ jobs:
         run: |
           ssh user@your-server "cd /path/to/your/app && git pull origin main && npm run start"
         env:
-          SSH_PRIVATE_KEY: ${{ secrets.SSH_PRIVATE_KEY }}
+          SSH_PRIVATE_KEY: ${{ secrets.CWA_PRIVATE_KEY }}
